@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<title>7 Days to Die Blood Moon Checker</title>
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="bmc.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Blood Moon <span>Checker<span></h1>
+		</header>
+		<div id="checker">
+			<p>Is it Blood Moon yet?</p>
+			<form>
+			Enter your day number: <input id="day" type="text" pattern="^([1-9]|[1-9][0-9]+)$" name="day"> and
+			<input id="submit" type="submit" value="Let's find out!">
+			</form>
+			<p id="answer">&nbsp;</p>
+		</div>
+		<footer>
+			<p>MW 2017</p>
+		</footer>
+	</div>
+</body>
+</html>
