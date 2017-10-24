@@ -68,6 +68,13 @@ input {
 	cursor: pointer;
 }
 
+footer {
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+}
+
 footer p {
 	font-size: 0.6rem;
 	margin: 0;
