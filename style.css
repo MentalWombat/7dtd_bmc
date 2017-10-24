@@ -68,18 +68,20 @@ input {
 	cursor: pointer;
 }
 
-footer {
-	bottom: 0;
-	left: 0;
-	position: fixed;
-	width: 100%;
-}
-
 footer p {
 	font-size: 0.6rem;
 	margin: 0;
 	padding: 0.5rem;
 	text-align: right;
+}
+
+@media only screen and (orientation: portrait) {
+	footer {
+		bottom: 0;
+		left: 0;
+		position: fixed;
+		width: 100%;
+	}
 }
 
 @media only screen and (min-width: 414px) {
