@@ -90,7 +90,7 @@ footer p {
 	}
 }
 
-@media only screen and (min-width: 375px) and (orientation: portrait) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
 	#checker {
 		padding: 10%;
 	}
