@@ -2,7 +2,7 @@ $(function() {
 	$("form").submit(function() {
 		var day = $("#day").val();
 		if (day == "") {
-			$("#answer").text("Try again and don't forget to enter a number.");
+			$("#answer").text("Try again and don't forget to enter day number.");
 			return false;
 		}
 		else {
